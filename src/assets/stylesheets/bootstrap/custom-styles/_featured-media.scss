@@ -1,0 +1,35 @@
+.featured-media{
+  padding:30px 0;
+  #featured-videos{}
+  #featured-music,
+  #featured-books{
+    h3{
+      line-height: 28px;
+      small{
+        display: block;
+      }
+    }
+  }
+}
+#musicModal,
+#musicModal2{
+  .modal-title{
+    small{
+      //margin-left: 10px;
+      display: block;
+    }
+  }
+  .list-group {
+    list-style: decimal inside;
+    .list-group-item {
+      display: list-item;
+      .btn-group{
+        margin-left: 15px;
+      }
+      small{
+        text-align: right;
+      }
+    }
+  }
+
+}
