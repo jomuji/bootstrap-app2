@@ -2381,6 +2381,10 @@ if (typeof jQuery === 'undefined') {
         return (this.bottom = $('.footer').outerHeight(true))
       }
     }
-  })
+  });
+
+  $('#CarouselNewestMovies').carousel({
+        interval: 5000
+    }); 
 
 }(jQuery);

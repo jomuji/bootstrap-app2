@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { NewestComponent } from './newest.component';
 
 @Component({
   moduleId: module.id,
   selector: 'app-movies',
   templateUrl: 'movies.component.html',
-  styleUrls: ['movies.component.css']
+  directives: [NewestComponent]
 })
 export class MoviesComponent implements OnInit {
 
